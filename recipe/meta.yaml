@@ -1,5 +1,5 @@
 {% set name = "uncompresspy" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/uncompresspy-{{ version }}.tar.gz
-  sha256: 36264679478b08eec0208ccdd29ba9d6df3f7affbd95d90c86325aa86f6c2084
+  sha256: e79ead66eaed8d42364d807c0ba3f3a8aef0e0087a9beaf1a60f23a808a6c147
 
 build:
   noarch: python
